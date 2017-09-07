@@ -10,22 +10,13 @@
     <nav class="navbar navbar-inverse">
       <div class="container-fluid">
         <div class="navbar-header">
-          <a class="navbar-brand" href="index.php">Blood Seeker</a>
+          <a class="navbar-brand" href="home_admin.php">Blood Seeker</a>
         </div>
         <ul class="nav navbar-nav">
-          <li class="active"><a href="admin_index.php">Dashboard</a></li>
+          <li class="active"><a href="home_admin.php">Dashboard</a></li>
           <li><a href="add_record.php">Add Record</a></li>
           <li><a href="update_record.php">Update Record</a></li>
         </ul>
-         <form class="navbar-form navbar-right" role="search">
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="username" placeholder="Username">
-                    </div>
-                    <div class="form-group">
-                        <input type="password" class="form-control" name="password" placeholder="Password">
-                    </div>
-                    <button type="submit" name="login_btn">Sign In</button>
-          </form>
 
  
     </div>

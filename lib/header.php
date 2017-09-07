@@ -29,6 +29,7 @@ if(isset($_POST['login_btn'])){
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link type="style/css" href="Blood/css/remember.css" rel="stylesheet">
 
   
 <div class="container">
@@ -53,7 +54,10 @@ if(isset($_POST['login_btn'])){
                     <div class="form-group">
                         <input type="password" class="form-control" name="password" placeholder="Password">
                     </div>
-                    <button type="submit" name="login_btn">Sign In</button>
+                    <button type="button" name="login_btn" class="btn btn-default">Sign In</button><br>
+                    <div class="checkbox">
+                        <label><input type="checkbox" class="remember"> Remember me</label> <!-- Pending sa ni, dapat ang color sa remember me sa log in page kay puti-->
+                    </div>
           </form>
 
  

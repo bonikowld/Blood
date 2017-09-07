@@ -17,14 +17,11 @@
                 if($reg)
                 {
                       echo "Registration Successful";
+                }
                 else{
                       echo "Registration Failed";
                 }
-
-                }
-
-
-
+               
     }
 
 ?>
