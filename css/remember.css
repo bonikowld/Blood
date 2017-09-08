@@ -1,3 +1,7 @@
-.remember{
+.label{
     color:#fff;
+    top:2px;
+}
+.remember{
+    left:100px;
 }

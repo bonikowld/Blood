@@ -10,9 +10,6 @@
       </div>
       <div class="col-md-2 col-sm-6 paddingtop-bottom">
         <h6 class="heading7">GENERAL LINK</h6>
-        <ul class="footer-ul">
-          <li><a href="register.php"> Register as Admin</a></li>
-        </ul>
       </div>
       <div class="col-md-3 col-sm-6 paddingtop-bottom">
         <h6 class="heading7">LATEST POST</h6>

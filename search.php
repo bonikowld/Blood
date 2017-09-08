@@ -1,10 +1,6 @@
 <?php include('lib/header.php');?>
 
-
-
-
-
-
+<title> BloodSeeker - Search Blood </title>
 <div class="container">
     <div>
         <div class="input-group input-group-lg">
