@@ -1,31 +1,36 @@
 <?php include('lib/header.php');?>
 <?php
 
-    
+    $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "blood_bank";
 
-    $db = mysqli_connect("localhost", "root", "", "user" );
+    $conn = mysqli_connect($servername, $username, $password, $dbname);
+
     if(isset($_POST['register_btn'])){
 
-          $firstName = $_POST['firstName'];
-          $lastName = $_POST['lastName'];
-          $userName = $_POST['username'];
+          $firstname = $_POST['firstname'];
+          $lastname = $_POST['lastname'];
+          $username = $_POST['username'];
           $password = $_POST['password'];
-          $userEmail = $_POST['email'];
-          $bloodBank = $_POST['bloodBank'];
+          $email = $_POST['email'];
+          $bloodbank = $_POST['bloodbank'];
 
-          if( $firstName== null && $lastName == null &&  $userName == null && $password == null && $userEmail == null &&  $bloodBank == null){
+        //   if( $firstName== null && $lastName == null &&  $userName == null && $password == null && $userEmail == null &&  $bloodBank == null){
              
-          }
+        //   }
 
 
-          $reg = mysqli_query($db, "INSERT INTO admin(firstName, lastName, userName, password, userEmail, bloodBank )VALUES ('$firstName', '$lastName', '$userName', '$password', '$userEmail', '$bloodBank')");
-                if($reg)
-                {
-                      echo "Registration Successful";
-                }
-                else{
-                      echo "Registration Failed";
-                }
+        mysqli_query($conn,"INSERT INTO admin(firstname, lastname, username, password, email, bloodbank )VALUES ( '".$firstname."', '".$lastname."', '".$username."', '".$password."', '".$email."', '".$bloodbank."')");
+                // if($sql)
+                // {
+                //       echo "Registration Successful";
+                // }
+                // else{
+                //       echo "Registration Failed";
+                // }
+                mysqli_close($conn);
                
     }
 
@@ -50,9 +55,9 @@
 </br>
 <form method="post" action="">
     <p> First Name </p>
-        <input type="text" class="form-control" name="firstName" placeholder="First Name">
+        <input type="text" class="form-control" name="firstname" placeholder="First Name">
     <p> Last Name </p>
-        <input type="text" class="form-control" name="lastName" placeholder="Last Name">
+        <input type="text" class="form-control" name="lastname" placeholder="Last Name">
     <p> Username </p>
         <input type="text" class="form-control" name="username" placeholder="Username">
     <p> Password </p>
@@ -60,7 +65,7 @@
     <p> Email </p>
         <input type="email" class="form-control" name="email" placeholder="Email">
     <p> Blood Bank </p>
-        <input type="text" class="form-control" name="bloodBank" placeholder="Blood Bank">
+        <input type="text" class="form-control" name="bloodbank" placeholder="Blood Bank">
         <br>
         <button type="submit" class="btn btn-success" name="register_btn"> Register </button>
     </br>

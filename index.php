@@ -10,15 +10,20 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="css/registerButton.css" style="text/css">
+  <link rel="stylesheet" href="css/login.css" style="text/css">
+  <link rel="stylesheet" href="css/header.css" style="text/css">
 </head>
 <body>
 
-
-
-  <!-- Trigger the modal with a button -->
- 
-
-
+  <form class="navbar-form navbar-right " role="search" action="" method="post">
+                      <div class="form-group">
+                          <input type="text" class="form-control" name="userName" placeholder="Username">
+                      </div>
+                      <div class="form-group">
+                          <input type="password" class="form-control" name="password" placeholder="Password">
+                      </div>
+                      <button type="submit" class="btn btn-default btn-primary">Sign In</button><br>
+  </form>
 
 <!--start of carousel-->
 <div class="container"> 
@@ -60,7 +65,7 @@
   <div class="carousel-text">
     <h2>Naa tay Ibutang diri nga text chu2x !!!!!!! hahahaha</h2>
   </div>
-  <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Register Now!</button>
+  <button type="button" class="btn btn-info btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Register Now!</button>
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog modal-sm">
