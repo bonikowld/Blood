@@ -1,9 +1,44 @@
 <?php include('lib/header.php');?>
+<?php
+
+        $servername = "localhost";
+        $username = "root";
+        $password = "";
+        $dbname = "blood_bank";
+
+        $conn = mysqli_connect($servername, $username, $password, $dbname);
+        
+        if(isset($_POST['signin_btn'])){
+
+          $username = $_POST['username'];
+          $password = $_POST['password'];
+
+          $sql = "SELECT * FROM admin WHERE username = '$username' AND password = '$password'";
+          $result = mysqli_query($conn, $sql);
+
+          if(mysqli_num_rows($result) > 0){
+              while($row = mysqli_fetch_assoc($result))
+              echo "Log in Successfull";
+
+              header("location: admin/home_admin.php");
+          }
+          else{
+              echo "Log in Failed";
+
+          }
+          mysqli_close($conn);
+
+        }
+
+?>
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Home</title>
+  <title>Home - Project Blood Seeker</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -17,12 +52,12 @@
 
   <form class="navbar-form navbar-right " role="search" action="" method="post">
                       <div class="form-group">
-                          <input type="text" class="form-control" name="userName" placeholder="Username">
+                          <input type="text" class="form-control" name="username" placeholder="Username">
                       </div>
                       <div class="form-group">
                           <input type="password" class="form-control" name="password" placeholder="Password">
                       </div>
-                      <button type="submit" class="btn btn-default btn-primary">Sign In</button><br>
+                      <button type="submit" name="signin_btn" class="btn btn-default btn-primary">Sign In</button><br>
   </form>
 
 <!--start of carousel-->
