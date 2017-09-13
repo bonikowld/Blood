@@ -45,6 +45,10 @@
             <option>Ozamiz City Chapter</option>
             <option>Tangub City Chapter</option>
         </select>
+        
+        <span class="input-group-addon" id="sizing-addon1"><button class="btn btn-default" type="button">
+        <span class="glyphicon glyphicon-search"></span></span>
+        
         </div>
         </br>
     </div>

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
         <div class="col-md-4 col-sm-6 footerleft ">
-        <p>Project Blood Seeker is a student made website by team hokage from La Salle University Ozamis City, it will provide reliable results in every users blood need</p>
+        <p align="justify">Project Blood Seeker is a student made website by team hokage from La Salle University Ozamis City, it will provide reliable results in every users blood need</p>
         <p><span class="glyphicon glyphicon-map-marker"></span>La Salle University Ozamis City</p>
         <p><span class="glyphicon glyphicon-phone"></span>(Philippines): 0909324289</p>
         <p><span class="glyphicon glyphicon-envelope"></span>E-mail : teamhokage.com</p>

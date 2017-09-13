@@ -8,7 +8,8 @@
 
   <div class="row content">
     <div class="col-sm-3 sidenav">
-        <br><br><br><br><p>Project Blood Seeker is a student made website by team hokage from La Salle University 
+        <br><br><br><br>
+        <p align="justify">Project Blood Seeker is a student made website by team hokage from La Salle University 
         Ozamis City, it will provide reliable results in every users blood need</p>
         <hr>
         <p><span class="glyphicon glyphicon-map-marker"></span>La Salle University Ozamis City</p>
@@ -16,27 +17,27 @@
         <p><span class="glyphicon glyphicon-envelope"></span>E-mail : teamhokage.com</p>
         <hr>
         <h6 class="heading7">LATEST POST</h6>
-         <div class="post">
+        <div class="post">
            <p>Module 1 presentation this coming thursday<span>March 2,2017</span></p>
            <p>Module 1 presentation this coming thursday <span>March 2,2017</span></p>
            <p>Module 1 presentation this coming thursday <span>March 2,2017</span></p>
-         </div>
+        </div>
         <br>
-         <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+        <div class="fb-page" data-href="https://www.facebook.com/facebook" data-tabs="timeline" data-height="300" data-small-header="false" style="margin-bottom:15px;" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
           <div class="fb-xfbml-parse-ignore">
           <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
           </div>
-         </div>
+        </div>
 
       <br>
     </div>
 
-    <div class="col-sm-9">
-      <div class="titleHeader">
-       <h2 class="formTitle">Request Form</h2>
-      </div>
-      <hr>
-      <div class="row">
+<div class="col-sm-9">
+    <div class="titleHeader">
+     <h2 class="formTitle">Request Form</h2>
+    </div>
+    <hr>
+  <div class="row">
    <div class="col-md-6 mob-con-border">
      <div class="control-group">
         <h4>Name</h4>
@@ -79,10 +80,9 @@
      </div><br>
      <div class="controls btn-bbi-group">
         <button type="submit" class="btn btn-success">Submit Request</button>
-     </div>
-   </div>
-  </div>
+    </div>
     </div>
   </div>
-
+</div>
+  </div>
 </div>
