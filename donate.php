@@ -20,12 +20,9 @@
           <li><a href="request.php">Request Blood</a></li>
           <li class="active"><a href="donate.php">Donate Blood</a></li>
         </ul>
-      
-
- 
-    </div>
+      </div>
     </nav>
-    </div>
+</div>
 
 
 

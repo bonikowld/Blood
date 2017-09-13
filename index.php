@@ -39,14 +39,26 @@
     <div class="carousel-inner">
       <div class="item active">
         <img src="img/img1.jpg" alt="Philippine Red Cross">
+        <div class="carousel-text">
+        <h2>Give Blood</h2>
+        <h2>for those who give life.</h2>
+        </div>
       </div>
 
       <div class="item">
         <img src="img/img2.png" alt="Philippine Red Cross">
+        <div class="carousel-text">
+        <h2>Blood donation it will cost you nothing,</h2>
+        <h2>it will save a life.</h2>
+        </div>
       </div>
     
       <div class="item">
         <img src="img/img3.jpg" alt="Philippine Red Cross">
+        <div class="carousel-text">
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blood cannot be manufactured.</h2>
+        <h2>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It will always a gift from someone.</h2>
+        </div>
       </div>
     </div>
 
@@ -62,9 +74,9 @@
   </div>
 
 
-  <div class="carousel-text">
+  <!--<div class="carousel-text">
     <h2>Naa tay Ibutang diri nga text chu2x !!!!!!! hahahaha</h2>
-  </div>
+  </div>-->
   <button type="button" class="btn btn-info btn-lg btn-danger" data-toggle="modal" data-target="#myModal">Register Now!</button>
   <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
