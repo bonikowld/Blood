@@ -1,5 +1,5 @@
 .btn-info {
-    position:fixed;
+    position: absolute;
     margin-top: -100px;
     left: 46%;
 
@@ -9,7 +9,7 @@
 }
 
 .carousel-text{
-    position:fixed;
+    position: fixed;
     margin-top: -271px;
     left: 41%;
 

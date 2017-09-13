@@ -1,5 +1,6 @@
 <?php include('lib/header.php');?>
 <?php
+        session_start();
 
         $servername = "localhost";
         $username = "root";
@@ -16,16 +17,17 @@
           $sql = "SELECT * FROM admin WHERE username = '$username' AND password = '$password'";
           $result = mysqli_query($conn, $sql);
 
-          if(mysqli_num_rows($result) > 0){
+          if(mysqli_num_rows($result)){
               while($row = mysqli_fetch_assoc($result))
               echo "Log in Successfull";
 
               header("location: admin/home_admin.php");
           }
           else{
-              echo "Log in Failed";
+                $prompt = "Log in Failed Invalid Username or Password";
+                echo "<script type='text/javascript'>alert('$prompt');</script>";
+            }
 
-          }
           mysqli_close($conn);
 
         }
@@ -47,17 +49,18 @@
   <link rel="stylesheet" href="css/registerButton.css" style="text/css">
   <link rel="stylesheet" href="css/login.css" style="text/css">
   <link rel="stylesheet" href="css/header.css" style="text/css">
+  <!-- <script src="js/login.js"> </script> -->
 </head>
 <body>
 
-  <form class="navbar-form navbar-right " role="search" action="" method="post">
+<form class="navbar-form navbar-right " role="search" action="" method="post">
                       <div class="form-group">
                           <input type="text" class="form-control" name="username" placeholder="Username">
                       </div>
                       <div class="form-group">
                           <input type="password" class="form-control" name="password" placeholder="Password">
                       </div>
-                      <button type="submit" name="signin_btn" class="btn btn-default btn-primary">Sign In</button><br>
+                      <button type="submit" id="login" name="signin_btn" class="btn btn-default btn-primary">Sign In</button><br>
   </form>
 
 <!--start of carousel-->
@@ -134,8 +137,6 @@
     </div>
   </div>
 </div>
-
-
 
 
   

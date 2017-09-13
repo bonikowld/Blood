@@ -16,8 +16,16 @@
           <li class="active"><a href="home_admin.php">Dashboard</a></li>
           <li><a href="add_record.php">Add Record</a></li>
           <li><a href="update_record.php">Update Record</a></li>
+          <li><a href="update_record.php">Blood Requested </a></li>
+          
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li> <button type="submit" id="signout" name="signout_btn" class="btn btn-default btn-primary">Log Out</button></li>
         </ul>
 
+
+
+       
  
     </div>
     </nav>
