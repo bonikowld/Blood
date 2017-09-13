@@ -43,11 +43,11 @@
         <h4>Name</h4>
          <input type="text" class="form-control" rel="tooltip"  name="name" 
          id="name" placeholder="Please enter the name">
-     <div><br>
+     </div><br>
      <div class="control-group">
         <h4>Date of Birth</h4>
          <input type="date" class="form-control" name="dob" id="dob">
-     <div><br>
+     </div><br>
      <div class="control-group">
         <h4>Blood Group</h4>
           <select class="form-control" name="bloodgroup" id="bloodgroup">
@@ -57,7 +57,7 @@
           <option value="B">B</option>
           <option value="O">O</option>
           </select>
-     <div><br>
+     </div><br>
      <div class="control-group">
         <h4>City</h4>
           <select class="form-control" name="city" id="city">

@@ -29,10 +29,10 @@
 <br><br>
 <div class="copyright">
   <div class="container">
-    <div class="col-md-4">
+    <div class="col-md-6">
       <p>© 2016 - All Rights with Webenlance</p>
     </div>
-    <div class="col-md-4">
+    <div class="col-md-6">
       <ul class="bottom_ul">
         <li><a href="#">About us</a></li>
         <li><a href="#">Faq's</a></li>
