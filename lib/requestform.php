@@ -2,6 +2,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link type="style/css" href="css/remember.css" rel="stylesheet">
+<link rel="stylesheet" href="css/registrationForm/adminRegistration.css" style="text/css">
 
 <div class="container">
 
@@ -31,7 +32,9 @@
     </div>
 
     <div class="col-sm-9">
-      <h2>Request Form</h2>
+      <div class="titleHeader">
+       <h2 class="formTitle">Request Form</h2>
+      </div>
       <hr>
       <div class="row">
    <div class="col-md-6 mob-con-border">
