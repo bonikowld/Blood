@@ -27,6 +27,7 @@
 <?php include('lib/requestform.php');?>
 
 <br><br>
+<hr>
 <div class="copyright">
   <div class="container">
     <div class="col-md-6">

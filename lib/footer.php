@@ -31,6 +31,7 @@
 </footer>
 <!--footer start from here-->
 
+<hr>
 <div class="copyright">
   <div class="container">
     <div class="col-md-6">
