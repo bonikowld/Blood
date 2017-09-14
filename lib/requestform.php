@@ -2,11 +2,11 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link type="style/css" href="css/remember.css" rel="stylesheet">
-<link rel="stylesheet" href="css/registrationForm/adminRegistration.css" style="text/css">
+<link rel="stylesheet" href="css/requestForm/requestBlood.css" style="text/css">
 
 <div class="container">
-
   <div class="row content">
+    
     <div class="col-sm-3 sidenav">
         <br><br><br><br>
         <p align="justify">Project Blood Seeker is a student made website by team hokage from La Salle University 
@@ -28,11 +28,10 @@
           <blockquote cite="https://www.facebook.com/facebook"><a href="https://www.facebook.com/facebook">Facebook</a></blockquote>
           </div>
         </div>
-
       <br>
     </div>
 
-<div class="col-sm-9">
+<!--<div class="col-sm-9">
     <div class="titleHeader">
      <h2 class="formTitle">Request Form</h2>
     </div>
@@ -83,6 +82,83 @@
     </div>
     </div>
   </div>
-</div>
+</div>-->
+
+      <div class="col-sm-9">
+        <center><h2><span><b>Request Blood</b></span></h2></center>
+        <hr>
+          <div class="row">
+            <div class="col-md-6 mob-con-border">
+              <table>
+              <h4><span class="headings"><b>Patient Details</b></span></h4>
+                <tr>
+                  <th><span>Patient Name</span></th>
+                  <th><span>Hospital Name and Address</span></th>
+                </tr>
+                <tr>
+                  <th><input type="text" class="form-control" rel="tooltip"  name="pname" 
+                      id="pname" placeholder="Please enter the Name">
+                  </th>
+                  <th><input type="text" class="form-control" rel="tooltip"  name="hnameAdd" 
+                      id="hnameAdd" placeholder="Please enter the Hospital Name and Address">
+                  </th>
+                </tr>
+                <tr>
+                  <th><span>Blood Group</span></th>
+                  <th><span>City</span></th>
+                </tr>
+                <tr>
+                  <th><select class="form-control" name="bloodgroup" id="bloodgroup">
+                      <option value="0">Select Blood Group</option>
+                      <option value="A+">A+</option>
+                      <option value="A">A</option>
+                      <option value="B">B</option>
+                      <option value="O">O</option>
+                      </select>
+                      <hr>
+                  </th>
+                  <th><select class="form-control" name="city" id="city">
+                      <option value="0">Select City</option>
+                      <option value="Oroquieta City">Oroquieta City</option>
+                      <option value="Ozamiz City">Ozamiz City</option>
+                      <option value="Tangub City">Tangub City</option>
+                      </select>
+                      <hr>
+                  </th>
+                </tr>
+              <table>
+              <h4><span class="headings"><b>Contact Details</b></span></h4>
+                <tr>
+                  <th><span>Contact Name</span></th>
+                  <th><span>Contact Email Address</span></th>
+                </tr>
+                <tr>
+                  <th><input type="text" class="form-control" rel="tooltip"  name="cname" 
+                      id="cname" placeholder="Please enter the Contact Name">
+                  </th>
+                  <th><input class="form-control" type="email" name="email" id="email" autocomplete="off" 
+                      placeholder="Please enter the Contact Email Address">
+                  </th>
+                </tr>
+                <tr>
+                  <th><span>Contact Numbe</span>r</th>
+                </tr>
+                <tr>
+                  <th><input type="text" class="form-control" rel="tooltip"  name="contactnumber" 
+                      id="contactnumber" placeholder="Please enter the Contact Number">
+                  </th>
+                </tr>
+              </table>
+              </table>
+            </div>
+          </div>
+      </div>
+
+                <div class="controls btn-bbi-group">
+                  <center><button type="submit" class="btn btn-info btn-lg btn-danger">
+                  <h4>Submit Request<h4></button></center>
+                </div>
   </div>
 </div>
+
+
