@@ -24,7 +24,6 @@
     </nav>
 </div>
 
-
-<?php include('lib/donateform.php');?>
+<?php include('lib/donateblood.php');?>
 
 <?php include('lib/footer.php');?>
