@@ -8,9 +8,10 @@
   <div class="row content">
     
     <div class="col-sm-3 sidenav">
-        <br><br><br><br>
+      <br><br><br><br>
         <p align="justify">Project Blood Seeker is a student made website by team hokage from La Salle University 
-        Ozamis City, it will provide reliable results in every users blood need</p>
+                           Ozamis City, it will provide reliable results in every users blood need
+        </p>
         <hr>
         <p><span class="glyphicon glyphicon-map-marker"></span>La Salle University Ozamis City</p>
         <p><span class="glyphicon glyphicon-phone"></span>(Philippines): 0909324289</p>
@@ -31,7 +32,8 @@
       <br>
     </div>
 
-<!--<div class="col-sm-9">
+<!--
+  <div class="col-sm-9">
     <div class="titleHeader">
      <h2 class="formTitle">Request Form</h2>
     </div>
@@ -82,7 +84,8 @@
     </div>
     </div>
   </div>
-</div>-->
+</div>
+-->
 
       <div class="col-sm-9">
         <center><h2><span><b>Request Blood</b></span></h2></center>
