@@ -3,6 +3,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link type="style/css" href="css/remember.css" rel="stylesheet">
 <link rel="stylesheet" href="css/requestForm/requestBlood.css" style="text/css">
+<link rel="stylesheet" href="css/scrolltopbutton.css" style="text/css">
 
 <div class="container">
   <div class="row content">
@@ -88,15 +89,15 @@
 -->
 
       <div class="col-sm-9">
-        <center><h2><span><b>Request Blood</b></span></h2></center>
+        <center><h2><b>Request Blood</b></h2></center>
         <hr>
           <div class="row">
             <div class="col-md-6 mob-con-border">
               <table>
               <h4><span class="headings"><b>Patient Details</b></span></h4>
                 <tr>
-                  <th><span>Patient Name</span></th>
-                  <th><span>Hospital Name and Address</span></th>
+                  <th>Patient Name</th>
+                  <th>Hospital Name and Address</th>
                 </tr>
                 <tr>
                   <th><input type="text" class="form-control" rel="tooltip"  name="pname" 
@@ -107,8 +108,8 @@
                   </th>
                 </tr>
                 <tr>
-                  <th><span>Blood Group</span></th>
-                  <th><span>City</span></th>
+                  <th>Blood Group</th>
+                  <th>City</th>
                 </tr>
                 <tr>
                   <th><select class="form-control" name="bloodgroup" id="bloodgroup">
@@ -132,8 +133,8 @@
               <table>
               <h4><span class="headings"><b>Contact Details</b></span></h4>
                 <tr>
-                  <th><span>Contact Name</span></th>
-                  <th><span>Contact Email Address</span></th>
+                  <th>Contact Name</th>
+                  <th>Contact Email Address</th>
                 </tr>
                 <tr>
                   <th><input type="text" class="form-control" rel="tooltip"  name="cname" 
@@ -144,7 +145,7 @@
                   </th>
                 </tr>
                 <tr>
-                  <th><span>Contact Numbe</span>r</th>
+                  <th>Contact Number</th>
                 </tr>
                 <tr>
                   <th><input type="text" class="form-control" rel="tooltip"  name="contactnumber" 
@@ -163,5 +164,32 @@
                 </div>
   </div>
 </div>
+
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Click to return on the top page" data-toggle="tooltip" data-placement="left">
+<span class="glyphicon glyphicon-chevron-up"></span>
+</a>
+
+<script>
+$(document).ready(function(){
+     $(window).scroll(function () {
+            if ($(this).scrollTop() > 50) {
+                $('#back-to-top').fadeIn();
+            } else {
+                $('#back-to-top').fadeOut();
+            }
+        });
+        // scroll body to 0px on click
+        $('#back-to-top').click(function () {
+            $('#back-to-top').tooltip('hide');
+            $('body,html').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
+        });
+        
+        $('#back-to-top').tooltip('show');
+
+});
+</script>
 
 
