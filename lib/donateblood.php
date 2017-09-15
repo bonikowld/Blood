@@ -292,8 +292,25 @@
           
         </div>
 
-        <div class="tab-pane active" id="4">
+        <div class="tab-pane" id="4">
+          <h3 align="center">Facilities</h3>
+
           
+          <button class="accordion">Oroquieta City Red Cross</button>
+          <div class="panel">
+          
+          </div>
+
+          <button class="accordion">Ozamiz City Red Cross</button>
+          <div class="panel">
+          
+          </div>
+
+          <button class="accordion">Tangub City Red Cross</button>
+          <div class="panel">
+          
+        </div>
+
         </div>
 
 	</div>
